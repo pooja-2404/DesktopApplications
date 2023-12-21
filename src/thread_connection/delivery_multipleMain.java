@@ -83,8 +83,8 @@ public class delivery_multipleMain {
 						// Database connection code (similar to your previous example)
 						config = new HikariConfig();
 						config.setJdbcUrl("jdbc:mysql://localhost:3306/db1");
-						config.setUsername("root");
-						config.setPassword("Pooja@240494");
+						config.setUsername("");
+						config.setPassword("");
 						SwingUtilities.invokeLater(new Runnable() {
 							@Override
 							public void run() {
